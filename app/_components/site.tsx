@@ -3,14 +3,14 @@ import Link from "next/link";
 export const SUPPORT_EMAIL = "weightsenseteam@gmail.com";
 
 // Mirrors the app's brand mark (src/components/branding/Logo.tsx): a rounded tile on the
-// dark canvas with a subtle border and an extrabold "WS" monogram.
+// dark canvas with a subtle border and an extrabold "SC" monogram.
 export function Logo({ className = "" }: { className?: string }) {
   return (
     <span className={`inline-flex items-center gap-2.5 ${className}`}>
       <span className="flex h-8 w-8 items-center justify-center rounded-md border border-line bg-canvas">
-        <span className="text-[13px] font-extrabold leading-none text-ink">WS</span>
+        <span className="text-[13px] font-extrabold leading-none text-ink">SC</span>
       </span>
-      <span className="text-[15px] font-semibold tracking-tight text-ink">WeightSense</span>
+      <span className="text-[15px] font-semibold tracking-tight text-ink">ScaleCue</span>
     </span>
   );
 }
@@ -55,7 +55,7 @@ export function SiteFooter() {
               Contact
             </a>
           </div>
-          <p>© {new Date().getFullYear()} WeightSense</p>
+          <p>© {new Date().getFullYear()} ScaleCue</p>
         </div>
       </div>
     </footer>

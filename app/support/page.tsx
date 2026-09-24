@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Eyebrow, SUPPORT_EMAIL } from "../_components/site";
 
 export const metadata: Metadata = {
-  title: "Support · WeightSense",
-  description: "Get help with WeightSense. Contact us and a real person will get back to you.",
+  title: "Support · ScaleCue",
+  description: "Get help with ScaleCue. Contact us and a real person will get back to you.",
 };
 
 const faqs = [
@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "How do reminders work?",
-    a: "WeightSense sends one gentle daily reminder at the time you usually weigh in. You can turn it off anytime with the Daily reminder toggle in the app's Settings, or in your iPhone Settings.",
+    a: "ScaleCue keeps reminders gentle and on your device only. You get a nudge around the time you usually weigh in, a friendly heads-up if you have been away for a while, and the occasional note when your trend shifts. It never nags, and a few weigh-ins a week is all it needs. Turn reminders off anytime in the app's Settings, or in your iPhone Settings.",
   },
   {
     q: "How is my data handled?",
@@ -28,7 +28,7 @@ export default function SupportPage() {
       <Eyebrow>Support</Eyebrow>
       <h1 className="mt-5 text-4xl font-bold tracking-tight text-ink">We are here to help.</h1>
       <p className="mt-5 text-lg leading-relaxed text-body">
-        Questions, feedback, or trouble with WeightSense? Reach out and a real person will get
+        Questions, feedback, or trouble with ScaleCue? Reach out and a real person will get
         back to you.
       </p>
 

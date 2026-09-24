@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Eyebrow, SUPPORT_EMAIL } from "../_components/site";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · WeightSense",
-  description: "How WeightSense collects, uses, stores, and protects your data.",
+  title: "Privacy Policy · ScaleCue",
+  description: "How ScaleCue collects, uses, stores, and protects your data.",
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -20,10 +20,10 @@ export default function PrivacyPage() {
     <article className="mx-auto max-w-2xl px-6 pb-24 pt-20 sm:pt-24">
       <Eyebrow>Legal</Eyebrow>
       <h1 className="mt-5 text-4xl font-bold tracking-tight text-ink">Privacy Policy</h1>
-      <p className="mt-4 text-sm text-muted">Last updated: August 29, 2026</p>
+      <p className="mt-4 text-sm text-muted">Last updated: September 23, 2026</p>
 
       <p className="mt-8 text-[15px] leading-relaxed text-body">
-        WeightSense (&ldquo;we,&rdquo; &ldquo;us&rdquo;) makes a weight-tracking app that helps you
+        ScaleCue (&ldquo;we,&rdquo; &ldquo;us&rdquo;) makes a weight-tracking app that helps you
         understand your weight trend instead of stressing over daily swings. This policy explains
         what we collect, why, and the control you have over it. We keep it short because we keep
         our data practices simple.
@@ -56,8 +56,8 @@ export default function PrivacyPage() {
       <Section title="How we use your information">
         <p>
           We use your information solely to provide the app: to save your weigh-ins, calculate your
-          trend and progress, sync your data across sign-ins, and send you an optional daily
-          reminder if you allow notifications. We do not use your data to build advertising
+          trend and progress, sync your data across sign-ins, and send you optional, on-device
+          reminders if you allow notifications. We do not use your data to build advertising
           profiles.
         </p>
       </Section>
@@ -85,14 +85,14 @@ export default function PrivacyPage() {
           You can view and edit your profile and weigh-ins at any time in the app. You can delete
           your account directly from the app&rsquo;s Settings, under Delete account. Deleting your
           account permanently removes your account and associated data from our systems and cannot
-          be undone. You can turn the daily reminder off anytime in the app&rsquo;s Settings, or in
+          be undone. You can turn reminders off anytime in the app&rsquo;s Settings, or in
           your device&rsquo;s notification settings.
         </p>
       </Section>
 
       <Section title="Children">
         <p>
-          WeightSense is not directed to children under 13, and we do not knowingly collect
+          ScaleCue is not directed to children under 13, and we do not knowingly collect
           information from them. If you believe a child has provided us information, contact us and
           we will delete it.
         </p>

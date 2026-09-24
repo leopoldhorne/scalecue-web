@@ -7,11 +7,11 @@ const features = [
   },
   {
     title: "See the real trend",
-    body: "Your trend weight and recent pace cut through the daily noise, so you can tell real change from a bad night's sleep.",
+    body: "Your 7-day trend weight and recent pace cut through the daily noise, so a high morning reads as noise, not a setback.",
   },
   {
     title: "Understand your patterns",
-    body: "Over time, WeightSense surfaces what tends to move your scale, without guilt trips or fragile promises.",
+    body: "Over time, ScaleCue surfaces what tends to line up with changes on your scale, without guilt trips or fragile promises.",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function Home() {
             The scale is noisy. The trend is the truth.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-body">
-            WeightSense looks past the daily jumps from water, sodium, sleep, and stress, and
+            ScaleCue looks past the daily jumps from water, sodium, sleep, and stress, and
             shows you the real direction you are heading. So one rough morning never derails you.
           </p>
           <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-2 text-sm text-subtle">
@@ -52,7 +52,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 py-20">
         <div className="rounded-2xl border border-line bg-surface px-8 py-14 text-center">
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
-            The WeightSense promise
+            The ScaleCue promise
           </p>
           <p className="mx-auto mt-4 max-w-xl text-balance text-2xl font-semibold leading-snug text-ink">
             Track the number. Understand the trend.

@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "WeightSense",
+  title: "ScaleCue",
   description:
-    "The scale is noisy. The trend is the truth. WeightSense looks past the daily jumps and shows the real direction you are heading.",
+    "The scale is noisy. The trend is the truth. ScaleCue looks past the daily jumps and shows the real direction you are heading.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

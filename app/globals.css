@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* WeightSense palette, mirrored from the app's design tokens (src/constants/colors.ts). */
+/* ScaleCue palette, mirrored from the app's design tokens (src/constants/colors.ts). */
 @theme {
   --color-canvas: #050505;
   --color-surface: #0e0e0f;
