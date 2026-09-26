@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const SUPPORT_EMAIL = "weightsenseteam@gmail.com";
+export const SUPPORT_EMAIL = "scalecue@gmail.com";
 
 // Mirrors the app's brand mark (src/components/branding/Logo.tsx): a rounded tile on the
 // dark canvas with a subtle border and an extrabold "SC" monogram.
